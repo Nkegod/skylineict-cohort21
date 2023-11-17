@@ -18,8 +18,8 @@ Below are their names,passcode and email address
 12	Nnadi Emmanuel Chiwendu	MrSlim	07037822595	2919	nnadiemmanuel91@gmail.com
 13	Ayodeji Oluwasegun 	Ayolenz	07033143433	86684	oluwasegunayodeji38@gmail.com
 14	Ibuaka Philip C.	Fillipo101	08061664149	89067	fillipo101@gmail.com
-15	Ernest Odoemene	Ernest	09072346715	80599	chineduodo91@gmail.com
+15	Ernest Odoemena	09072346715	80599	chineduodo91@gmail.com
 16	Ajeni Sunday	Ajeni29	07035429424	13265	ajeni29@gmail.com
 17	Onanuga Adesegun	victorsam	08102204897	86684	adesegunvictor@gmail.com
-18	Ukwelenwa Stephen O			85640
+18	Ukwelenwa Stephen O         85640 08135986556
 
