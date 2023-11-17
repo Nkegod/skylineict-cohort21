@@ -20,8 +20,7 @@ Below are their names,passcode and email address
 14	Ayodeji Oluwasegun 	Ayolenz	07033143433	86684	oluwasegunayodeji38@gmail.com
 15	Ibuaka Philip C.	Fillipo101	08061664149	89067	fillipo101@gmail.com
 16	Ernest Odoemene	Ernest	09072346715	80599	chineduodo91@gmail.com
-17	Ganiu Idowu Boluwatife	Gibbs	08057160506	2919	Ganiu_i@yahoo.com
-18	Ajeni Sunday	Ajeni29	07035429424	13265	ajeni29@gmail.com
-19	Onanuga Adesegun	victorsam	08102204897	86684	adesegunvictor@gmail.com
-20	Ukwelenwa Stephen O			85640
+17	Ajeni Sunday	Ajeni29	07035429424	13265	ajeni29@gmail.com
+18	Onanuga Adesegun	victorsam	08102204897	86684	adesegunvictor@gmail.com
+29	Ukwelenwa Stephen O			85640
 
