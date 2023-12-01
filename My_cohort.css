@@ -1,0 +1,112 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+body{
+  background-color: lightgray;
+}
+/* this is my header styling */
+.header{
+  height: 10vh;
+  display: flex;
+  background-color: #fff;
+  align-items: center;
+  justify-content: space-between;
+  margin: 15px;
+  border-radius: 5px;
+}
+
+.search{
+  position: relative;
+  left: 15px;
+}
+
+.search i{
+  font-size: 15px;
+  position: absolute;
+  top: 7px;
+  left: 12px;
+  color: lightgray;
+}
+
+.search input{
+  padding: 8px 50px;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  outline: none;
+}
+
+.header_btn{
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+#one{
+  padding: 8px 15px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+#one span{
+  padding-left: 15px;
+}
+
+#two{
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(36, 36, 192);
+  cursor: pointer;
+  color: #fff;
+}
+/* header stops here */
+
+table{
+  width: 98%;
+  margin: auto;
+  border-collapse: collapse;
+}
+th, td{
+  padding: 10px 20px;
+  text-align: left;
+  
+}
+
+.tone{
+  margin-bottom: 40px;
+}
+
+.tdata{
+  background-color: #fff;
+}
+/* this works for the drop down */
+.voicesearch{
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 50%;
+}
+
+.contact{
+  display: flex;
+  gap: 5px;
+}
+
+.serch-btn{
+  position: relative;
+}
+
+.search-btn-cont{
+  display: none;
+  position: absolute;
+}
+
+.search-btn:hover .search-btn-cont{
+    display: block;
+}
+/* dropdown ends */
