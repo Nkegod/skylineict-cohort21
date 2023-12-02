@@ -1,0 +1,30 @@
+.wrapper{
+    width: 50%;
+    height: 50vh;
+    background-color: red;
+    margin: auto;
+    padding-top: 10px;
+}
+
+.envelope{
+    width: 98%;
+    height: 45vh;
+    border-radius: 10px;
+    background-color: aliceblue;
+    margin: auto;
+    
+}
+
+span{
+    font-size: 180px;
+    position: absolute;
+    left: 42%;
+}
+
+p{
+    position: absolute;
+    left: 40%;
+    bottom: 58%;
+    font-size: 22px;
+    margin: auto;
+}
