@@ -1,0 +1,37 @@
+table{
+    border-bottom: 1px solid;
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+
+}
+th{
+
+    text-align: left;
+    border-bottom: 1px solid;
+
+
+}
+tr{
+    border-bottom: 1px solid;
+    
+}
+
+td{
+    
+    text-align: left;
+}
+span{
+    background-color:green;
+    padding: 10px;
+    border-radius: 5px;
+}
+th, td{
+ padding: 20px 18px;
+}
+.Rejected{
+    background-color: red;
+}
+.Processing{
+    background-color: orange;
+}
