@@ -146,3 +146,70 @@ body{
 .content1 p{
   color: lightgray;
 }
+
+@media screen and (max-width: 1200px){
+  .container{
+    display: grid;
+  }
+
+  .recent-cont{
+    height: 15vh;
+  }
+
+  .right{
+    width: 96vw;
+  }
+
+  .re-img{
+    width: 75px;
+    height: 50px;
+  }
+
+  .block span h3{
+    font-size: 13px;
+  }
+
+  .block span p{
+    font-size: 10px;
+  }
+
+  .block1 img{
+    width: 45px;
+    height: 10px;
+  }
+
+  .block2 span i{
+    font-size: 10px;
+    padding: 0 5px;
+  }
+
+  .block1 h3{
+    font-size: 13px;
+  }
+
+  .block2 a{
+    padding: 5px;
+    font-size: 12px;
+  }
+
+  .block1{
+    height: 10vh;
+  }
+
+  *{
+    margin: 0;
+  }
+
+  .dates{
+    margin-bottom: 25px;
+  }
+
+  .left{
+    width: 85vw;
+    height: 80vh;
+  }
+
+  .con1{
+    padding: 25px 0px;
+  }
+}

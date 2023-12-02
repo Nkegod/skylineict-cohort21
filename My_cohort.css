@@ -110,3 +110,22 @@ th, td{
     display: block;
 }
 /* dropdown ends */
+
+/* mobile resonsiveness starts */
+
+@media screen and (max-width: 800px) {
+  #one, #two{
+    padding: 5px 10px;
+  }
+
+  th, td{
+    font-size: 10px;
+    padding: 5px 10px;
+  }
+
+  .search-btn-cont{
+    font-size: 9px;
+    color: red;
+    margin-right: 5px;
+  }
+}
