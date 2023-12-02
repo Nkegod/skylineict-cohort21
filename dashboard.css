@@ -491,7 +491,7 @@ Learn UI Design
     position: absolute;
     top: 50%;
     left: 10%;
-    font-size: 12px;
+    font-size: 15px;
 }
 
 .bq progress{
@@ -500,7 +500,7 @@ Learn UI Design
 
 .bq #feg{
     margin-left: 5px;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .one a{
@@ -534,7 +534,7 @@ Learn front end development
     position: absolute;
     top: 50%;
     left: 10%;
-    font-size: 12px;
+    font-size: 15px;
 }
 
 
@@ -569,7 +569,7 @@ for Learn Back end Development
     position: absolute;
     top: 50%;
     left: 10%;
-    font-size: 12px;
+    font-size: 15px;
 }
  
 
@@ -594,7 +594,7 @@ for my course
 */
 .my-course{
     height: 50vh;
-    background-color:white;
+    background-color:rgb(209, 196, 196);
     margin: 10px 10px 10px 30px ;
     border-radius: 15px;
     width: 50%;
