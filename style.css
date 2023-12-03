@@ -1,0 +1,735 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Libre Baskerville', serif;
+
+}
+
+/* body{
+
+    display: flex;
+    
+} */
+
+/* My logo style */
+
+.logo img{
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 80px;
+    border-radius: 50%;
+}
+
+.logo{
+    overflow: hidden;
+
+}
+/* logo style ends here */
+
+
+
+
+.menu-bar{
+    position: sticky;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(51, 51, 150, 0.726);
+    height: 110vh;
+    /* width: 20%; */
+    width: 80px;
+    padding: 0 20px;
+    transition: all 0.5s;
+    overflow: hidden;
+
+}
+
+.menu-bar:hover{
+    width: 20%;
+    transition: 0.8s;
+
+}
+
+
+.fullbody{
+    display: flex;
+      
+
+}
+
+/* body{
+    display: flex;
+} */
+
+ul li{
+padding: 14px;
+margin: 8px 0;
+
+
+}
+
+
+ul li a{
+    color: white;
+
+}
+
+ul a{
+    display: flex;
+    gap: 18px;
+
+
+}
+
+ul i{
+
+    font-size: 20px;
+
+}
+
+.sign-out{
+    
+    background-color: red;
+    /* width: 100%; */
+    border-radius: 10px;
+
+    
+}
+
+ul{
+    position: relative;
+    height: 80vh;
+    width: 70%;
+   
+}
+
+ul li:hover{
+    background-color: red;
+    border-radius: 8px;
+
+}
+
+ul a span{
+    overflow: hidden;
+
+}
+
+
+.content-main{ 
+    
+    background-image: url(./Image/gray-marble.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    
+
+}
+
+/* Header stlye begins (Includes profile,Search bar and welcome note) */
+
+.header-main{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 20px ;
+    align-items: center;
+    width: 93%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 10px 5px lightgray;
+
+
+
+}
+
+
+
+
+
+/* Header begins here */
+
+
+
+.header-title h1{
+    color: rgba(51, 51, 150, 0.726);
+    font-size: 20px;
+}
+
+
+.header-title span{
+    color: #333396b9;
+    font-size: 15px;
+    letter-spacing: 4px;
+    font-weight: bolder;
+    display: block;
+    padding-bottom: 10px;
+    margin-right: 5px;
+
+}
+
+/* header ends here */
+
+/* Profile styling begins here */
+
+.profile-img img{
+    width: 60px;
+    border-radius: 50%;
+
+
+}
+.profile-info{
+
+    display: flex;
+    gap: 100px;
+    align-items: center;
+
+
+}
+
+.search-box input{
+    padding: 7px;
+    background-color: transparent;
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid gray;
+
+
+}
+
+.search-box{
+    position: relative;
+}
+
+.search-box button{
+        padding: 7px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: #333396b9;
+        color: white;
+        border-radius: 10px;
+        border: 1px solid gray;
+}   
+
+.search-box button :hover{
+    transform: scale(1.1);
+}
+
+/* My card design starts from here */
+
+.card-container{
+
+    background-color: white;
+    margin-top: 10px;
+    width: 93%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border-radius: 10px;
+    height: 200px;
+ 
+
+}
+
+.card-container h1{
+    color: rgba(51, 51, 150, 0.726);
+    font-size: 20px;
+    padding-bottom: 10px;
+
+}
+
+.card-flex{
+
+    display: flex;
+    gap: 3rem;
+
+}
+
+.card-student{
+    background: rgb(178, 235, 198);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 23.5%;
+    height: 120px;
+    border-radius: 10px;
+    transition: all 0.5s ease-out;
+    box-shadow: 2px 2px 2px 1px goldenrod;
+    cursor: pointer;
+
+
+}
+.card-student:hover{
+    transform: translate(-5px);
+    
+}.card-header{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.passcode-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.icon{
+    font-size: 20px;
+    background-color: #333396b9;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+
+}
+
+.lightpurple{
+
+    background-color: rgb(204, 99, 204);
+}
+
+.light-green{
+
+    background-color: lightgreen;
+}
+
+.lightred{
+    background-color: rgb(241, 15, 15);
+}
+
+
+
+.card-flex > .card-student:nth-child(1){
+
+    background-color: rgb(211, 193, 34);
+
+}
+
+.card-flex > .card-student:nth-child(2){
+
+    background-color: lightgoldenrodyellow;
+
+}
+
+.card-flex > .card-student:nth-child(3){
+
+    background-color: lightblue;
+
+}
+
+.card-flex > .card-student:nth-child(4){
+
+    background-color: lightpink;
+
+}
+
+
+/* Assignment container starts here */
+
+
+.assignment-container{
+
+    background-color: white;
+    margin-top: 10px;
+    width: 93%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+.assignment-container h1{
+
+    color: rgba(51, 51, 150, 0.726);
+    font-size: 20px;
+    padding-bottom: 1rem;
+
+
+
+}
+
+
+
+.top-img img{
+
+    width: 50px;
+    border-radius: 50%;
+
+}
+.assignment-flex{
+
+display: flex;
+
+}
+
+
+.assignment-subject{
+
+    flex: 2;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 5px 3px 10px 0 rgb(143, 122, 122);
+    height: 70px;
+    align-items: center;
+    border-radius: 10px;
+    border-left: 3px solid #02021b;
+     
+}
+
+.courses h3{
+
+    font-size: 15px;
+    padding-bottom: 5px;
+    color:  #02021b;
+    font-weight: bold;
+}
+
+
+.topic{
+    font-size: 14px;
+    font-family: serif; 
+    font-style: italic;
+}
+
+
+.btn-btn{
+
+    background-color: #b3b3da;
+    padding: 7px 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+    color: #02021b;
+    
+
+}
+.top-performer{
+
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 5px 3px 10px 0 rgb(143, 122, 122);
+    height: 70px;
+    align-items: center;
+    border-radius: 10px;
+    border-right: 3px solid #02021b;
+
+}
+
+/* THis is ******MY COURSE****** section 
+It was added by Osarogie Igbinosa     
+||||||||||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||
+*/
+
+
+
+/* Here is the container class that held the flex */
+
+.container{
+    display: flex;
+    /* column-width: 30%; */
+    background-color: rgb(209, 233, 233);
+    width: 93%;
+    height: 42vh;
+    margin-left: 10px;
+    /* padding-left: 10px; */
+    /* margin-top: 8px; */
+    box-shadow: 4px 4px rgb(170, 166, 166);
+    border-radius: 16px;
+}
+
+.container > div{
+    width: 46%;
+    height: 37vh;
+    background-color: #ffff;
+    margin: 5px 2px;
+    border-radius: 15px;
+    position: relative;
+    /* margin-left: 70px; */
+    
+    
+}
+
+
+
+
+
+/*Action taken when mouse hovers on the div */
+.container > div:hover{
+    border: 2px Solid blueviolet;
+}
+/* ///////////////////////////////////// */
+
+
+
+/* This is inside the  "first flex div" for
+Learn UI Design
+|||||||||||||||||||||||||||||||||||||||||||||||
+ */
+
+.one .bg{
+    width: 84%;
+    background-color: darkcyan;
+    height: 15vh;
+    margin: 15px;
+    border-radius: 6px;  
+}
+
+.bg img{
+    width: 100%;
+    height: 100%;
+}
+.one .bq{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    font-size: 15px;
+}
+
+.bq progress{
+    margin-top: 5px;
+}
+
+.bq #feg{
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+.one a{
+    background-color: blueviolet;
+    position: absolute;
+    bottom: 4%;
+    left: 7% ;
+    padding: 6px;
+    font-family: Calibri;
+    color: white;
+    width: 78%;
+    text-align: center;
+    border-radius: 9px;
+    font-size: 17px;
+}
+
+/* This is the second flex div  For 
+Learn front end development
+||||||||||||||||||||||||||||||||||||||||||||||||
+*/
+
+.two .bg{
+    width: 84%;
+    background-color: darkcyan;
+    height: 15vh;
+    margin: 15px;
+    border-radius: 6px; 
+}
+
+.two .bq{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    font-size: 15px;
+}
+
+
+.two a{
+    background-color: blueviolet;
+    position: absolute;
+    bottom: 4%;
+    left: 7% ;
+    padding: 6px;
+    font-family: Calibri;
+    color: white;
+    width: 78%;
+    text-align: center;
+    border-radius: 9px;
+    font-size: 17px;
+}
+
+/* this is the third flex  
+for Learn Back end Development
+||||||||||||||||||||||||||||||||||||||||||||||
+*/
+
+.three .bg{
+    width: 84%;
+    background-color: darkcyan;
+    height: 15vh;
+    margin: 15px;
+    border-radius: 6px; 
+}
+
+.three.bq{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    font-size: 15px;
+}
+ 
+
+.three a{
+    background-color: blueviolet;
+    position: absolute;
+    bottom: 4%;
+    left: 7% ;
+    padding: 6px;
+    font-family: Calibri;
+    color: white;
+    width: 78%;
+    text-align: center;
+    border-radius: 9px;
+    font-size: 17px;
+}
+
+
+/* 
+MY course div. this is the main container 
+for my course 
+*/
+.my-course{
+    height: 50vh;
+    background-color:rgb(209, 196, 196);
+    margin: 10px 10px 10px 30px ;
+    border-radius: 15px;
+    width: 50%;
+    position: relative;
+    padding-top: 10px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.my-course h2{
+    color: rgba(51, 51, 150, 0.726);
+    font-size: 20px;
+    padding-bottom: 1rem;
+
+    
+}
+
+.my-course > a{
+    margin-left: 65%;
+}
+
+.ref{
+    width: 100%;
+    padding-left: 20px;
+    display: flex;
+}
+
+.ref >a{
+   margin-left: 60%;
+   padding-right: 7px;
+   color: black;
+}
+
+/*
+||||||||||||||||||||||||||||||||||||||||||||||||| 
+This is the Upcoming class section 
+|||||||||||||||||||||||||||||||||||||||||||||||||
+*/
+.upcoming-class{
+    width: 44%;
+    height: 50vh;
+    background-color: rgb(209, 196, 196);
+    float: left;
+    margin: 10px 0px 10px 20px ;
+    border-radius: 15px;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+.upcoming-class div{
+    width: 90%;
+    height: 20vh;
+    background-color: beige;
+    margin: 10px 0px 0px 30px;
+    border-radius: 8px;
+    position: relative;
+    border-left: 4px solid black;
+    
+}
+.upcoming-class p{
+    color: rgba(51, 51, 150, 0.726);
+}
+
+interaction design section
+
+.upcoming-class > div:nth-of-type(1){
+   /* background-color: aqua; */
+   margin-bottom: 5px; 
+   /* position: relative; */
+  
+   padding-top: 4px;
+}
+.upcoming-class > a, p{
+    color: black;
+    /* float: left; */
+    display: inline;
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.upcoming-class a{
+    margin-left: 45%;
+}
+.words{
+    margin-left: 220px;
+ }
+
+.line{
+    width: 40%;
+    height: 3vh;
+    /* background-color: chartreuse; */
+    margin: 6px 13px 0px 10px;
+    border-right: 2px solid black;
+    /* text-align: right; */
+    float:left;
+ }
+
+
+.upcoming-class nav:nth-of-type(2){
+    margin: 6px 0px 0px 140px;
+    
+}
+
+hr{
+    margin-top: 30px;
+}
+.image{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 65%;
+    left: 10px;
+}
+
+.image img{
+    width: 40px;
+    border-radius: 50%;
+}
+
+.designer-name{
+    margin-left: 90px; 
+}
+
+.designer-name-1{
+    margin-left: 90px;
+}
+.image-1{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 65%;
+    left: 10px;
+}
+.image-1 img{
+    width: 40px;
+    border-radius: 50%;
+}
+.Session{
+    margin-left: 300px;
+}
