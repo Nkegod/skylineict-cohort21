@@ -1,0 +1,143 @@
+.wrapper{
+    width: 38%;
+    margin: 10% 30%;
+    height: 60vh;
+    background-color: red;
+    padding: 2px 0px 4px;
+    border-radius: 4px;
+    
+
+}
+
+.envelope{
+    width: 99%;
+    height: 60vh;
+    border-radius: 10px;
+    background-color: white;
+    margin: 0 auto;
+    
+}
+
+/* h5{
+    position: relative;
+    top: 190px;
+    right: -130px;
+    color: peru;
+    outline-color: rebeccapurple;
+    outline: red;
+} */
+
+
+p{
+    position: absolute;
+    left: 37%;
+    bottom: 32%;
+    color:midnightblue;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+
+
+/* h6 is for my set password */
+h6{
+    position: absolute;
+    left: 41.6%;
+    bottom: 27%;
+    width: 110px;
+    box-shadow: 3px 5px 14px 3px  rgb(0, 11, 130);
+    margin: 0 auto;
+    color:white;
+    background-color: darkblue;
+    font-size: 15px;
+    padding: 7px 35px;
+    border-radius: 8px;
+    letter-spacing: 0.1rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+}
+
+span{
+    font-size: 130px;
+    position: absolute;
+    left: 42.7%;
+    top: 25%;
+    color: firebrick;
+
+
+}
+
+img{
+    width: 200px;
+}
+
+
+/* my responsiveness for tablet */
+
+@media screen and (max-width:1100px) {
+    
+span{
+    font-size: 10px;
+    color: blue;
+    top: 130px;
+    left: 40%;
+    }
+
+p{
+position: absolute;
+    color: firebrick;
+    left: 36%;
+    bottom: 34%;
+    font-size: 20px;
+}
+
+h6{
+    position: absolute;
+    left: 40%;
+    bottom: 30%;
+    width: 110px;
+    font-size: 13px;
+    padding: 7px 32px;
+    border-radius: 8px;
+}
+
+}
+
+
+/* my responsiveness for phone */
+@media (min-width: 300px) and (max-width:820px) {
+    
+    span{
+        font-size: 10px;
+        top: 130px;
+        left: 39%;
+
+        }
+    
+p{
+    font-size: 14px;
+    color: rgb(241, 65, 94);
+    left: 32%;
+    bottom: 43%;
+    font-weight: 600;
+    }
+    
+    
+h6{
+    bottom: 38%; 
+    left: 36%;
+    font-size: 12px;
+    padding: 6px 2px 6px 22px;
+}
+
+
+
+
+img{
+    width: 130px;
+}
+
+    }
