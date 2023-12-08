@@ -1,0 +1,193 @@
+
+body{
+
+    margin: 0;
+    padding: o;
+    background-color: brown;
+    font-family: 'Inter', sans-serif;
+}
+
+h1{
+    color: blue;
+    font-weight: bold;
+    margin-left: 35%;
+    padding-top: 20px;
+}
+
+/* name label */
+.lab1{
+    position: relative;
+    top: 14px;
+    font-size: 15px;
+    color: gray;
+    }
+
+    /* email label */
+.lab2{
+    position: relative;
+    top: 15px;
+    font-size: 15px;
+    color: gray;        
+}
+
+/* modifying the "*" on the name and email */
+.astrix{
+    color: red;
+}
+
+/* name text box */
+.inpass1{
+border: none;
+padding: 10px;
+width: 90%;
+border-bottom: 2px solid;    
+}
+
+/* email text box */
+.inpass2{
+    border: none;
+    padding: 10px;
+    width: 90%;
+    border-bottom: 2px solid;    
+    }
+
+    /* this code control the button  */
+.btn{
+    background-color: rgb(4, 4, 153);
+    padding: 10px 90px;
+    border-radius: 10px;
+    margin: 20px;
+    margin-left: 103px;
+    color: white;
+    border: none;
+}
+
+/* this div control the sign up page */
+.main-container{
+background-color: white;
+width: 40%;
+margin: auto;
+height:80vh;
+border-radius: 50px;
+}
+
+/* this div control the form div */
+.form-div{
+    background-color:white;
+    width: 80%;
+    height: 27vh;
+    margin: auto;
+    margin-top: 10px;  
+    border-radius: 10px;
+}
+
+.statu-gender{
+    background-color: white;
+    margin-top: 15px;
+   display: flex;
+   gap: 70px;
+}
+
+
+input{
+    border: none;
+    border-bottom: 1px solid;
+}
+
+label{
+    font-size: 12px;
+    color: gray;
+}
+
+.lines{
+    position: relative;
+    top: 100px;
+}
+
+.lines{
+    display: flex;
+    
+}
+
+.content1{
+   text-align: center;
+    margin-right: -5px;
+    margin-left: 17px;
+    
+}
+
+.social{
+    width: 56%;
+    margin-left: 179px;
+}
+
+.b4line{
+    position: relative;
+    top: 14px;
+    margin-left: -100px;
+}
+
+.afterline{
+    position: relative;
+    top: 14px;
+    right: -25px;
+    }
+
+
+.sub-social i{
+    padding: 20px;
+    position: absolute;
+    margin-left: -120px;
+    margin-top: 85px;
+ 
+}
+.sub-social{
+    display: flex;
+    gap: 20px;
+}
+
+
+.google-div{
+    width: 1%;
+    margin-left: 100px;
+    padding:0 20px;
+    border-radius: 50%;
+    color: red;
+    font-size: 30px;
+    
+}
+.facebook-div{
+    width: 1%;
+    padding: 0 20px;
+    border-radius: 50%;
+    font-size: 30px;
+    color: rgb(7, 39, 216);
+}
+.twitter-div{
+    width: 1%;
+    padding:0 20px;
+    border-radius: 50%;
+    font-size: 30px;
+    
+}
+h3{
+    position: relative;
+    top: 170px;
+    left: 30px;
+    /* background-color: white; */
+    width: 50%;
+    font-size: 13px;
+}
+h3{
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+
+/* mobile responsiveness start here */
+@media (min-width:1297px) and (max-width:1326){
+
+
+
+}
