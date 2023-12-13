@@ -349,9 +349,6 @@ ul a span{
     color: rgba(51, 51, 150, 0.726);
     font-size: 20px;
     padding-bottom: 1rem;
-
-
-
 }
 
 
@@ -362,10 +359,14 @@ ul a span{
     border-radius: 50%;
 
 }
+
 .assignment-flex{
-
 display: flex;
+}
 
+
+progress{
+    width: 70%;
 }
 
 
@@ -379,6 +380,7 @@ display: flex;
     align-items: center;
     border-radius: 10px;
     border-left: 3px solid #02021b;
+    
      
 }
 
@@ -421,7 +423,10 @@ display: flex;
 
 }
 
-/* THis is ******MY COURSE****** section 
+/* 
+||||||||||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||
+THis is ******MY COURSE****** section 
 It was added by Osarogie Igbinosa     
 ||||||||||||||||||||||||||||||||||||||||||||
 ||||||||||||||||||||||||||||||||||||||||||||
@@ -436,7 +441,7 @@ It was added by Osarogie Igbinosa
     /* column-width: 30%; */
     background-color: rgb(209, 233, 233);
     width: 93%;
-    height: 42vh;
+    height: 39vh;
     margin-left: 10px;
     /* padding-left: 10px; */
     /* margin-top: 8px; */
@@ -493,7 +498,7 @@ Learn UI Design
 }
 
 .bq progress{
-    margin-top: 5px;
+    margin-top: 0px;
 }
 
 .bq #feg{
@@ -590,15 +595,29 @@ for Learn Back end Development
 MY course div. this is the main container 
 for my course 
 */
+.my-course-container{
+    display: flex;
+    width: 93%;
+    background-color: white;
+    border-right: black;
+    height: 55vh;
+    margin: 10px auto;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+
+
 .my-course{
     height: 50vh;
     background-color:rgb(209, 196, 196);
-    margin: 10px 10px 10px 30px ;
+    margin: 10px 10px 10px 10px ;
     border-radius: 15px;
     width: 50%;
     position: relative;
     padding-top: 10px;
-    float: left;
+    /* float: left; */
     box-sizing: border-box;
 }
 
@@ -635,12 +654,14 @@ This is the Upcoming class section
     width: 44%;
     height: 50vh;
     background-color: rgb(209, 196, 196);
-    float: left;
-    margin: 10px 0px 10px 20px ;
+    /* float: left; */
+    margin: 10px 0px 10px 20px;
     border-radius: 15px;
     padding-top: 10px;
     box-sizing: border-box;
 }
+
+
 
 .upcoming-class div{
     width: 90%;
@@ -656,17 +677,16 @@ This is the Upcoming class section
     color: rgba(51, 51, 150, 0.726);
 }
 
-interaction design section
+/* interaction design section */
 
 .upcoming-class > div:nth-of-type(1){
-   /* background-color: aqua; */
+   background-color: whitesmoke;
    margin-bottom: 5px; 
    /* position: relative; */
-  
    padding-top: 4px;
 }
 .upcoming-class > a, p{
-    color: black;
+    /* color: black; */
     /* float: left; */
     display: inline;
     margin-left: 30px;
@@ -677,7 +697,7 @@ interaction design section
     margin-left: 45%;
 }
 .words{
-    margin-left: 220px;
+    margin-left: 100px;
  }
 
 .line{
@@ -691,19 +711,16 @@ interaction design section
  }
 
 
-.upcoming-class nav:nth-of-type(2){
-    margin: 6px 0px 0px 140px;
-    
-}
+
 
 hr{
-    margin-top: 30px;
+    margin-top: 10px;
 }
 .image{
     width: 40px;
     height: 40px;
     position: absolute;
-    top: 65%;
+    top: 60%;
     left: 10px;
 }
 
@@ -713,17 +730,22 @@ hr{
 }
 
 .designer-name{
-    margin-left: 90px; 
+    margin-left: 0; 
+    position: absolute;
+    bottom: 10px;
+    left: 55px;
 }
 
 .designer-name-1{
-    margin-left: 90px;
+   position: absolute;
+   bottom: 10px;
+   left: 66px;
 }
 .image-1{
     width: 40px;
     height: 40px;
     position: absolute;
-    top: 65%;
+    top: 55%;
     left: 10px;
 }
 .image-1 img{
@@ -731,5 +753,159 @@ hr{
     border-radius: 50%;
 }
 .Session{
-    margin-left: 300px;
+    margin-left: 100px;
+}
+
+.progress-bar{
+    background-color: rgb(199, 21, 21);
+    margin-top: 10px;
+    width: 93%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border-radius: 10px;
+    height: 200px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    
+
+}
+
+
+
+/* 
+||||||||||||||||||||||||||||||||||||||||||||||||||||||
+This is the section For Mobile responsiveness 
+||||||||||||||||||||||||||||||||||||||||||||||||||||||
+*/
+
+
+@media screen and (max-width:1239px) {
+    .progress-bar{
+        background-color: black;
+    }
+
+    .my-course-container{
+        display: block;
+        width: 93%;
+        background-color: rgb(114, 106, 106)smoke;
+        border-right: black;
+        height: 110vh;
+        margin: 10px auto;
+        padding: 10px 0px;
+        border-radius: 10px;
+        box-sizing: border-box;
+    }
+
+    .upcoming-class{
+        width: 58%;
+        height: 53vh;  
+        margin: auto;
+        padding-top: 10px;
+        
+    }
+
+    .my-course{
+        height: 50vh;
+        background-color:rgb(209, 196, 196);
+        margin: 10px auto ;
+        border-radius: 15px;
+        width: 58%;
+        padding-top: 10px;
+        /* float: left; */
+        box-sizing: border-box;
+    }
+}
+
+@media (min-width:905px)and (max-width:1032px){
+
+    .upcoming-class{
+        width: 70%; 
+    }
+
+    .my-course{
+       
+        width: 70%;
+        
+    }
+    .assignment-flex{
+        display: block;
+        }
+
+    .assignment-subject{
+            margin-bottom: 28px;
+     }
+     .top-img{
+        position: absolute;
+        left: 20%;
+     }
+
+     .top-performer{
+        position: relative;
+     }
+
+     .card-container{
+        /* background-color: chartreuse; */
+        height: 400px;
+     }
+
+     .card-flex{
+        /* background-color: red; */
+        height: 350px;
+        display: grid;
+        grid-template-columns: auto auto;
+        column-gap: 0px;
+        padding: 10px 15px;
+     }
+    .card-student{
+        width: 55%;
+    }
+}
+
+@media (min-width:432px)and (max-width:906px){
+    .upcoming-class{
+        width: 90%; 
+    } 
+
+    .my-course{
+       
+        width: 90%;
+        
+    }
+
+    .assignment-container{
+        height: 40vh;
+        /* background-color: red; */
+    }
+
+    .assignment-flex{
+        display: block;
+    
+        
+        }
+    .assignment-subject{
+        margin-bottom: 28px;
+    }
+
+
+
+    
+    /* |||||||||||||||||||||||||||||||||||||||||||| */
+    .card-container{
+        /* background-color: chartreuse; */
+        height: 400px;
+     }
+
+     .card-flex{
+        /* background-color: red; */
+        height: 350px;
+        display: grid;
+        grid-template-columns: auto auto;
+        column-gap: 0px;
+        padding: 10px 15px;
+     }
+    .card-student{
+        width: 55%;
+        
+    }
 }
