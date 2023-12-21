@@ -4,6 +4,7 @@
     height: 210px;
     background-color: rgb(219, 219, 251);
     position: relative;
+    box-sizing: border-box;
 }
 
 .progress-bar{
@@ -84,13 +85,6 @@
     height: 18vh;
 }
 
-.my-course{
-    display: grid;
-    grid-template-columns: 9fr 1fr;
-    padding-left: 15px;
-    margin-top: 45px;
-
-}
 
 .icon3{
     background-color: rgb(233, 223, 233);
@@ -116,14 +110,5 @@
 
 
 
-.my-course{
-    position: relative;
-    margin-top: -0.1px;
-    padding-top: 5px;
-}
 
-.mycourse p{
-font-weight: bolder;
-font-size: 18px;
-padding-left: 20px;
-}
+
