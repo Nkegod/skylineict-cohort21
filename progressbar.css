@@ -1,0 +1,129 @@
+
+.progress-container{
+    width: 93%;
+    height: 210px;
+    background-color: rgb(219, 219, 251);
+    position: relative;
+}
+
+.progress-bar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 30px 15px;
+    column-gap: 20px;
+    height: 80px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+
+}
+
+.time{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    background-color: aliceblue;
+    border-radius: 7px;
+    padding: 5px 20px;
+    height: 18vh;
+}
+
+.icon1{
+    background-color: rgb(240, 234, 248);
+    width: 65px;
+    height: 60px;
+    margin: auto;
+    position: relative;
+    border-radius: 5px;
+}
+
+.icon1 span i{
+
+    color: rgb(110, 98, 235);
+    font-size: 30px;
+    position: absolute;
+    top: 32%;
+    left: 25%;
+
+}
+
+.course{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    background-color: aliceblue;
+    border-radius: 7px;
+    padding: 5px 20px;
+    height: 18vh;
+}
+
+
+.icon2{
+    background-color: rgba(242, 244, 226, 0.84);
+    width: 65px;
+    height: 60px;
+    margin: auto;
+    position: relative;
+    border-radius: 5px;
+}
+
+.icon2 span i{
+
+    color: rgb(231, 244, 119);
+    font-size: 30px;
+    position: absolute;
+    top: 32%;
+    left: 25%;
+
+}
+
+
+.assignment{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    background-color: aliceblue;
+    border-radius: 7px;
+    padding: 5px 20px;
+    height: 18vh;
+}
+
+.my-course{
+    display: grid;
+    grid-template-columns: 9fr 1fr;
+    padding-left: 15px;
+    margin-top: 45px;
+
+}
+
+.icon3{
+    background-color: rgb(233, 223, 233);
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    position: relative;
+    border-radius: 5px;
+}
+.icon3 span i{
+
+    color: rgb(246, 172, 246);
+    font-size: 30px;
+    position: absolute;
+    top: 13%;
+    right: 27%;
+
+}
+
+.course-week span{
+    color: red;
+}
+
+
+
+.my-course{
+    position: relative;
+    margin-top: -0.1px;
+    padding-top: 5px;
+}
+
+.mycourse p{
+font-weight: bolder;
+font-size: 18px;
+padding-left: 20px;
+}
