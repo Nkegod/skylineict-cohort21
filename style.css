@@ -1077,7 +1077,7 @@ This is the section For Mobile responsiveness
     }
 }
 
-@media (min-width:905px)and (max-width:1032px){
+@media (min-width:905px)and (max-width:1054px){
 
     .upcoming-class{
         width: 70%; 
@@ -1146,6 +1146,28 @@ This is the section For Mobile responsiveness
     .assignment-subject{
         margin-bottom: 28px;
     }
+
+    .progress-container{
+        height: 60vh;
+        border-radius: 10px;
+        margin-left: 15px;
+        margin-top: -3px;
+    }
+
+    .progress-bar > div{
+        margin-bottom: 15px;
+    }
+    .progress-bar{
+        /* display: block; */
+        grid-template-columns: auto auto;
+    }
+
+    .assignment{
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+   
 
 
 
