@@ -1,0 +1,133 @@
+
+
+.container-progress {
+    background-color: rgb(199, 225, 250);
+    margin-top: 160px;
+    width: 93% ;
+    height: 200px;
+    margin-left: 13% auto;
+    margin-right: 13% auto;
+    padding:30px 30px 70px;
+   
+   
+}
+
+.see{
+    width: 100%;
+    display:flex ;
+    justify-content: space-around;
+    color: saddlebrown;
+    position: absolute;
+    top: 57%;
+}
+
+
+.container-progress h4{
+    position: absolute;
+    left: 8px;
+    top: -15px;
+    font-size: 30px;
+    width: 20%;
+    text-transform: capitalize;
+    font-family:'Gill Sans', 'Gill Sans MT',
+    Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.all{
+    position: absolute;
+    right: -50px;
+    font-size: 18px;
+    width: 20%;
+    top: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* every design inside my container is ending here
+and all effects inside each box is starting from here */
+
+.box_flex{
+    display: flex;
+}
+
+
+.frame1 {
+    display: grid;
+    height: 200px;
+    gap: 1rem;
+    margin-right: 20px;
+    width: 30%;
+    border-radius: 10px;
+    padding-left: 30px;
+    /* grid-template-columns: 20%;  */
+
+}
+
+.a{
+    background-color: rgb(147, 199, 251);
+
+}
+
+
+.b{
+    background-color: rgb(143, 218, 143);
+
+}
+
+.c{
+    background-color: rgb(189, 114, 250);
+}
+
+
+/* my logo design here */
+.logo{
+    background-color: cyan;
+    height: 30px;
+    width: 30%;
+    padding: 15px;
+    position: relative;
+    bottom: 130px;
+    right: -160px;
+}
+
+/* writtings inside my box here */
+
+.frame_header h2{
+    color: blue;
+    font-size: 35px;
+    font-family: 'Gill Sans',
+    'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.frame_info {
+    margin-top: 20px;
+    font-family: cursive;
+    font-size: 22px;
+    width: 150%;
+    font-weight: bold;
+}
+
+.frame_info h5{
+    color: darkgreen;
+}
+
+.frame_info h6{
+    margin-top: -20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 'Lucida Sans Unicode', 
+    Geneva, Verdana, sans-serif;
+    width: 130%;
+    
+}
+
+.aggregate_1{
+    color: blue;
+}
+
+.aggregate_2{
+    color: red;
+}
+
+.aggregate_3{
+    color: white;
+}
